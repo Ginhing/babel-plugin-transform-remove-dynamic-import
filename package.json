@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-transform-remove-export",
+  "name": "babel-plugin-transform-remove-dynamic-import",
   "version": "1.0.0",
-  "description": "This plugin removes all export calls.",
+  "description": "This plugin removes all dynamic import calls.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dleitee/babel-plugin-transform-remove-export.git"
+    "url": "git+https://github.com/Ginhing/babel-plugin-transform-remove-dynamic-import.git"
   },
   "author": "Daniel Leite de Oliveira <dleitee@gmail.com>",
   "license": "ISC",
