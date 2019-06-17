@@ -5,7 +5,7 @@ module.exports = function() {
     name: 'transform-remove-dynamic-import',
     visitor: {
       Import(path) {
-        path.remove()
+        path.replaceWithSourceString('()=>{}')
       },
     },
   }
