@@ -2,9 +2,9 @@
 
 module.exports = function() {
   return {
-    name: 'transform-remove-export',
+    name: 'transform-remove-dynamic-import',
     visitor: {
-      ExportDeclaration(path) {
+      Import(path) {
         path.remove()
       },
     },
